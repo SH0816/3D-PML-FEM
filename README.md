@@ -14,6 +14,7 @@ $ cd PML
 ## Configure your environment
 1、You will need to install the following external libraries:  
 gcc9.3.0、mpich、superlu_dist-8.0.0、petsc-3.20.5 
+
 2、Then you need to modify the make.inc file: 
 BLAS_DIR     =/Your path/openmp  
 LAPACK_DIR   =/Your path/gcc9.3.0  
@@ -33,4 +34,6 @@ $notice
 You need to select the mpi run command based on your environment, as shown below:  
 mpiexe -n numpro(Number of processes) ./main
 
+# Citation
+If you use this code for your research, please cite the paper.
 
