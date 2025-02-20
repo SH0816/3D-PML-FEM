@@ -24,16 +24,16 @@ SUPERLU_DIST =/Your path/superlu_dist-8.0.0
 EIGEN_DIR     =/Your path/eigen-git-mirror-master  
 PETSC_DIR    =/Your path/petsc-3.20.5  
 
-3、Compile your code  
+3、Compile your code    
 $ make
 
-4、Run your code
+4、Run your code  
 $ sh mybatch.sh X1 X2 (X1 represents the number of nodes used at run time and X2 represents the total number of processes used at run time)  
 
-$notice  
+$notice    
 You need to select the mpi run command based on your environment, as shown below:  
 mpiexe -n numpro(Number of processes) ./main
 
-# Citation
+# Citation  
 If you use this code for your research, please cite the paper.
 
